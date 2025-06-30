@@ -1,0 +1,13 @@
+{
+  "config_dir": "./config/ContextNet_outbrain",
+  "model_setid": "base",
+  "data_setid": "base",
+  "seed": "42",
+  "disable_cuda": "False",
+  "gpu_index": "-1",
+  "expid": "v1",
+  "model_params": "{'model_name': 'ContextNet', 'batch_size': 1024, 'early_stop_patience': 2, 'embedding_dim': 10, 'embedding_regularizer': 1e-05, 'net_regularizer': 1e-05, 'epochs': 2, 'eval_epoch': 2, 'learning_rate': 0.0001, 'loss': 'binary_crossentropy', 'batch_normal': True, 'optimizer': 'adam', 'linear_dropout': 0.0, 'num_workers': 16, 'use_linear': True, 'net_model': 'PFFN', 'use_ce_every_layer': True, 'increase_ratio': 2, 'block_num': 3, 'use_gru': True, 'gru_hidden_dim': 64, 'model_id': 'base'}",
+  "data_params": "{'data_setid': 'base', 'data_name': 'outbrain', 'data_format': 'csv', 'data_root': 'C:/PytorchCTR/outbrain/', 'feature_cols': {'sparse_features': {'name': ['display_id', 'ad_id', 'ad_document_id', 'campaign_id', 'advertiser_id', 'event_document_id', 'platform_x', 'geo_location_x', 'source_id_admeta', 'publisher_id_x', 'source_id_eventmeta', 'publisher_id_y', 'category_id', 'entity_id', 'document_id_y', 'timestamp', 'platform_y', 'geo_location_y', 'traffic_source', 'new_session', 'publish_time_admeta_year', 'publish_time_admeta_month', 'publish_time_eventmeta_ts', 'publish_time_eventmeta_year', 'publish_time_eventmeta_month', 'event_timestamp_ts', 'uuid', 'document_id_x', 'document_id_ent', 'publish_time_admeta_ts'], 'dtype': 'int'}, 'dense_features': {'name': ['confidence_level', 'confidence_level_ent', 'time_diff'], 'dtype': 'float'}}, 'label_col': {'dtype': 'int', 'name': 'clicked'}, 'min_categr_count': 1, 'test_data': 'C:/PytorchCTR/outbrain/test.csv', 'train_data': 'C:/PytorchCTR/outbrain/train.csv', 'valid_data': 'C:/PytorchCTR/outbrain/valid.csv', 'use_valid': True, 'dense_emb': True, 'scaler': 'MinMaxScaler'}",
+  "device": "cpu",
+  "log_path": "./result/ContextNet/outbrain/v1/"
+}
