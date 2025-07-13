@@ -1,0 +1,11 @@
+epoch	train_loss	dev_loss	dev_score	best_dev_score
+Data loading complete
+0	0.698343
+Validation AUC: 0.546026, LogLoss: 0.693198
+Test AUC: 0.540259, LogLoss: 0.693252
+{'auc': np.float64(0.5460255976768712), 'logloss': 0.6931978045408506, 'best_epoch': 0}
+1	0.694642
+Validation AUC: 0.711896, LogLoss: 0.680352
+Test AUC: 0.704254, LogLoss: 0.681237
+{'auc': np.float64(0.7118958916657304), 'logloss': 0.6803524240318799, 'best_epoch': 1}
+Test AUC: 0.704254, LogLoss: 0.681237

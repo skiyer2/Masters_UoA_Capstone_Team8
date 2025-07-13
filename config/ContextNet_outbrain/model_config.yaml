@@ -1,0 +1,24 @@
+base:
+    model_name: SessionContextNet
+    batch_size: 128
+    early_stop_patience: 2
+    embedding_dim: 10
+    embedding_regularizer: 1.0e-05
+    net_regularizer: 1.0e-05
+    epochs: 2
+    eval_epoch: 1
+    learning_rate: 0.0001
+    loss: binary_crossentropy
+    batch_normal: true
+    optimizer: adam
+    linear_dropout : 0.0
+    num_workers: 16
+    use_linear: False
+    net_model: PFFN
+    use_ce_every_layer: True
+    increase_ratio: 2
+    block_num: 1
+    gru_hidden_dim: 32               
+    gru_layers: 1                     
+    max_session_len: 10
+

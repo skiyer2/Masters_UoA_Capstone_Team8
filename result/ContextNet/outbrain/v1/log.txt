@@ -1,0 +1,2 @@
+epoch	train_loss	dev_loss	dev_score	best_dev_score
+Data loading complete
